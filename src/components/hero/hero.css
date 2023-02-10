@@ -1,0 +1,20 @@
+.carousel-indicators .active {
+  opacity: 1;
+  width: 10px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+
+.carrousel-indicator {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  right: -10%;
+  bottom: 10%;
+  transform: rotate(90deg);
+}
